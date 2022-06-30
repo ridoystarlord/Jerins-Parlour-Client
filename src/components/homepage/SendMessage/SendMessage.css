@@ -1,0 +1,16 @@
+
+  .send-message-input{
+      width: 47%;
+  }
+  .text-area{
+      width: 96%;
+  }
+
+  @media screen and (max-width: 480px) {
+    .send-message-input, .text-area{
+        width: 95%;
+    }
+    .send-message-body{
+        width: 100% !important;
+    }
+  }
